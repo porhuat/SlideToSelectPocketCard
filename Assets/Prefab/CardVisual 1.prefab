@@ -231,7 +231,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1849634609509186224, guid: 7b3389e6d042401439d07ac34b21bd7b, type: 3}
+  m_Sprite: {fileID: 2036062757444088482, guid: e2068c06984e58b47b51eebcf3653bf9, type: 3}
   m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 3136940161969516193}
   - component: {fileID: 872987332109106357}
   - component: {fileID: 77339883205955283}
+  - component: {fileID: 8210906311488236539}
   m_Layer: 5
   m_Name: CardVisual 1
   m_TagString: Untagged
@@ -350,15 +351,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentCard: {fileID: 0}
   visualShadow: {fileID: 4372801592109696601}
-  shakeParent: {fileID: 490616043202188451, guid: 935ada618c18c0f418081387dff2bf8f, type: 3}
-  tiltParent: {fileID: 490616043202188451, guid: 935ada618c18c0f418081387dff2bf8f, type: 3}
+  shakeParent: {fileID: 7860138847532566852}
+  tiltParent: {fileID: 2572398638759114299}
   cardImage: {fileID: 802823295650818943}
-  followSpeed: 30
-  rotationAmount: 20
+  followSpeed: 15
+  rotationAmount: 60
   rotationSpeed: 20
-  autoTiltAmount: 30
-  manualTiltAmount: 20
-  tiltSpeed: 20
+  autoTiltAmount: 15
+  manualTiltAmount: 30
+  tiltSpeed: 40
   scaleAnimations: 0
   scaleOnHover: 1.15
   scaleOnSelect: 1.25
@@ -372,3 +373,26 @@ MonoBehaviour:
   swapTransition: 0.15
   swapVibrato: 5
   curve: {fileID: 11400000, guid: 14be38b92430b1543b69732f6ff9e755, type: 2}
+--- !u!223 &8210906311488236539
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110547041814783297}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
